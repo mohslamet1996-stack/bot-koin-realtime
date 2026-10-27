@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: bot-koin-realtime-speed
+    runtime: node
+    plan: free
+    buildCommand: yarn install
+    startCommand: node index.js
